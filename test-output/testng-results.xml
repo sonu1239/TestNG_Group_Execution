@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-25T09:08:57 IST" name="Suite" finished-at="2022-08-25T09:08:58 IST" duration-ms="925">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="Personal_loan.WebLoginPersonalLoan()[pri:0, instance:com.TestNG.Group.Personal_loan@be35cd9]" name="WebLoginPersonalLoan" class="com.TestNG.Group.Personal_loan"/>
+        <method signature="Home_loan.MobileLoginHomeLoan()[pri:0, instance:com.TestNG.Group.Home_loan@35aea049]" name="MobileLoginHomeLoan" class="com.TestNG.Group.Home_loan"/>
+        <method signature="Car_loan.APILoginCarLoan()[pri:0, instance:com.TestNG.Group.Car_loan@5acf93bb]" name="APILoginCarLoan" class="com.TestNG.Group.Car_loan"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test started-at="2022-08-25T09:08:57 IST" name="Personal Loan" finished-at="2022-08-25T09:08:58 IST" duration-ms="279">
+      <class name="com.TestNG.Group.Personal_loan">
+        <test-method signature="WebLoginPersonalLoan()[pri:0, instance:com.TestNG.Group.Personal_loan@be35cd9]" started-at="2022-08-25T09:08:58 IST" name="WebLoginPersonalLoan" finished-at="2022-08-25T09:08:58 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginPersonalLoan -->
+      </class> <!-- com.TestNG.Group.Personal_loan -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2022-08-25T09:08:58 IST" name="Home Loan" finished-at="2022-08-25T09:08:58 IST" duration-ms="39">
+      <class name="com.TestNG.Group.Home_loan">
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:com.TestNG.Group.Home_loan@35aea049]" started-at="2022-08-25T09:08:58 IST" name="MobileLoginHomeLoan" finished-at="2022-08-25T09:08:58 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+      </class> <!-- com.TestNG.Group.Home_loan -->
+    </test> <!-- Home Loan -->
+    <test started-at="2022-08-25T09:08:58 IST" name="Car Loan" finished-at="2022-08-25T09:08:58 IST" duration-ms="72">
+      <class name="com.TestNG.Group.Car_loan">
+        <test-method signature="APILoginCarLoan()[pri:0, instance:com.TestNG.Group.Car_loan@5acf93bb]" started-at="2022-08-25T09:08:58 IST" name="APILoginCarLoan" finished-at="2022-08-25T09:08:58 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+      </class> <!-- com.TestNG.Group.Car_loan -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Suite -->
+</testng-results>
